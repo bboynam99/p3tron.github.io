@@ -46,7 +46,7 @@
 			gtag('config', 'UA-132340101-1');
 		</script>
 	</head>
-	<body>
+	<body style="overflow-x: hidden;">
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2BWTJH"
 						  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -110,134 +110,136 @@
 								<div class="wrapper-content">
 									<div class="b-content-row">
 										<div class="text-head">
-											<h1 style="color: white;">Get 3.33% of investments<br/>Each 24 hours. Forever</h1>
-											<p style="color: white">Automatic TRON smart contract. Absolute transparency. Withdraw dividends from the first minute </p>
+											<p style="color: white;">DailyROI game has ended because DailyROI's smart contract balance is drained out. Therefore, you cannot withdraw your dividends anymore. If you read our game instruction, you will know this scenario: the contract will pay you your dividends as long as it still has TRX. Check out our P3T Play and our Telegram group for more Games.</p>
 										</div>
 									</div>
-									<div class="b-content-row">
-										<div class="b-calc-item ">
-											<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
-											<div class="b-block-title" style="margin-bottom: 10px;"><span>Investment</span></div>
-											<div class="b-calc-item__block__left" style="width: 100%;"><span style="display: inline">Your referrer:</span> <span style="display: inline" id="your-inviter"></span></div>
-											<div class="b-calc-item__block__left" style="width: 100%;"><span>Your investments</span></div>
-											<div class="b-calc-item__row" style="margin-bottom: 10px;">
-												<div class="b-block-title-2">
-													<span id="your-invest" style="font-size: 18px;font-weight: 700;">0</span>
-													<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+									<div class="game-over" style="position: relative;">
+										<div class="game-over-disable-container" style="top: -3%; left: -4%; position: absolute;width: 110%; height: 106%; background: black; z-index: 999; opacity: 0.7"></div>
+										<div class="b-content-row">
+											<div class="b-calc-item ">
+												<img src="./assets/tick-half.png" style="position: absolute;left: 0;top: 17px;">
+												<div class="b-block-title" style="margin-bottom: 10px;"><span>Investment</span></div>
+												<div class="b-calc-item__block__left" style="width: 100%;"><span style="display: inline">Your referrer:</span> <span style="display: inline" id="your-inviter"></span></div>
+												<div class="b-calc-item__block__left" style="width: 100%;"><span>Your investments</span></div>
+												<div class="b-calc-item__row" style="margin-bottom: 10px;">
+													<div class="b-block-title-2">
+														<span id="your-invest" style="font-size: 18px;font-weight: 700;">0</span>
+														<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+													</div>
 												</div>
-											</div>
-											<div class="b-calc-item__block">
-												<div class="b-calc-item__block__left" style="width: 100%;"><span>Enter investments amount</span></div>
-											</div>
-											<div class="b-calc-item__block">
-												<div class="b-calc-item__block__right">
-													<div class="b-calc-item__block__content"><span>TRX</span></div>
-													<input type="text" class="b-calc-item__input invest-input" value="0">
+												<div class="b-calc-item__block">
+													<div class="b-calc-item__block__left" style="width: 100%;"><span>Enter investments amount</span></div>
 												</div>
-											</div>
-											<div class="b-calc-item__bottom" style="margin-top: 42px;"><button class="btn-calc btn-sell invest-button">Invest</button></div>
-										</div>
-										<div class="b-calc-item" style="position: relative;">
-											<img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
-											<div class="b-block-title" style="margin-bottom: 10px;"><span>Rewards</span></div>
-											<div class="b-calc-item__block__left" style="width: 100%;"><span>Your referral rewards</span></div>
-											<div class="b-calc-item__row">
-												<div class="b-block-title-2">
-													<span id="your-ref" style="font-size: 18px;font-weight: 700;">0</span>
-													<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+												<div class="b-calc-item__block">
+													<div class="b-calc-item__block__right">
+														<div class="b-calc-item__block__content"><span>TRX</span></div>
+														<input type="text" class="b-calc-item__input invest-input" value="0">
+													</div>
 												</div>
+												<div class="b-calc-item__bottom" style="margin-top: 42px;"><button class="btn-calc btn-sell invest-button">Invest</button></div>
 											</div>
-											<div class="b-calc-item__block__left" style="width: 100%;"><span>Your dividends (include referral rewards)</span></div>
-											<div class="b-calc-item__row">
-												<div class="b-block-title-2">
-													<span id="your-dividends" style="font-size: 18px;font-weight: 700;">0</span>
-													<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+											<div class="b-calc-item" style="position: relative;">
+												<img src="./assets/tick-half-2.png" style="position: absolute;left: 0;top: 17px;">
+												<div class="b-block-title" style="margin-bottom: 10px;"><span>Rewards</span></div>
+												<div class="b-calc-item__block__left" style="width: 100%;"><span>Your referral rewards</span></div>
+												<div class="b-calc-item__row">
+													<div class="b-block-title-2">
+														<span id="your-ref" style="font-size: 18px;font-weight: 700;">0</span>
+														<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+													</div>
 												</div>
-											</div>
-											<div class="b-calc-item__block__left" style="width: 100%;"><span>Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.</span></div>
-											<!-- <div class="b-calc-item__row">
-												<p style="color: white;">
-													Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.
-												</p>
-											</div> -->
-											<div class="b-calc-item__bottom" style="margin-top: 27px;"><button class="btn-calc btn-buy withdraw-button">Withdraw</button></div>
-										</div>
-									</div>
-									<div class="b-content-row token-network">
-										<div class="b-info b-info-two" style="display: block;">
-											<div class="b-info-top" style="">
-												<img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
-												<div class="b-info-title"><span>Referral activity</span></div>
-												<span style="font-size: 13px;font-weight: 600;">Your referral link:</span>
-												<div class="b-info-row" style="margin-bottom: 2px;position: relative;">
-													<input id="ref-url" class="form-control form-referral" value="" readonly="" style="">
-													<button data-clipboard-target="#ref-url" data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
+												<div class="b-calc-item__block__left" style="width: 100%;"><span>Your dividends (include referral rewards)</span></div>
+												<div class="b-calc-item__row">
+													<div class="b-block-title-2">
+														<span id="your-dividends" style="font-size: 18px;font-weight: 700;">0</span>
+														<span class="" style="float: right;color:red;font-weight: 400">TRX</span>
+													</div>
 												</div>
-												<div style="font-size: 13px;color: #888888;font-weight: 500;">5% is affiliate reward. You need to invest at least 1 TRX in Daily ROI in order to activate the referral link. </div>
-											</div>
-											<div class="img" style="width: 50%;float: right;">
-												<img src="./assets/referral-img.png" style="width: 39%;margin:0 auto">
+												<div class="b-calc-item__block__left" style="width: 100%;"><span>Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.</span></div>
+												<!-- <div class="b-calc-item__row">
+													<p style="color: white;">
+														Dividends updates every minute. You can withdraw them even every minute. Minimum deposit is 1 TRX.
+													</p>
+												</div> -->
+												<div class="b-calc-item__bottom" style="margin-top: 27px;"><button class="btn-calc btn-buy withdraw-button">Withdraw</button></div>
 											</div>
 										</div>
-									</div>
+										<div class="b-content-row token-network">
+											<div class="b-info b-info-two" style="display: block;">
+												<div class="b-info-top" style="">
+													<img src="./assets/tick-half-3.png" style="position: absolute;left: 0;top: 17px;">
+													<div class="b-info-title"><span>Referral activity</span></div>
+													<span style="font-size: 13px;font-weight: 600;">Your referral link:</span>
+													<div class="b-info-row" style="margin-bottom: 2px;position: relative;">
+														<input id="ref-url" class="form-control form-referral" value="" readonly="" style="">
+														<button data-clipboard-target="#ref-url" data-container="body" data-toggle="popover" data-placement="top" data-content="Copied" id="copy-ref-button" style="border-radius: 8px;background-color: #d11322;color: #fff;padding: 2px;width: 90px;position: absolute;right: 8px;">Copy</button>
+													</div>
+													<div style="font-size: 13px;color: #888888;font-weight: 500;">5% is affiliate reward. You need to invest at least 1 TRX in Daily ROI in order to activate the referral link. </div>
+												</div>
+												<div class="img" style="width: 50%;float: right;">
+													<img src="./assets/referral-img.png" style="width: 39%;margin:0 auto">
+												</div>
+											</div>
+										</div>
 
-									<div class="b-content-row">
-										<div class="b-col" style="padding: 20px">
-											<img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
-											<div class="b-col-title"><span>How it works</span></div>
-											<div class="b-desc-content">
-												<div class="b-desc">
-													<div class="b-desc-title"><span>Every 24 hours smart contract will add 3.33% of your deposit to your balance as dividends.</span></div>
-													<div class="b-desc-item">
-														<div class="b-desc-item__text">
-															<p>That means you will get 3.33% of your investments each 24 hours. Moreover, this will continue forever (while contract has TRX). For example in 30 days contract will return 100% of your first deposit.</p>
+										<div class="b-content-row">
+											<div class="b-col" style="padding: 20px">
+												<img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
+												<div class="b-col-title"><span>How it works</span></div>
+												<div class="b-desc-content">
+													<div class="b-desc">
+														<div class="b-desc-title"><span>Every 24 hours smart contract will add 3.33% of your deposit to your balance as dividends.</span></div>
+														<div class="b-desc-item">
+															<div class="b-desc-item__text">
+																<p>That means you will get 3.33% of your investments each 24 hours. Moreover, this will continue forever (while contract has TRX). For example in 30 days contract will return 100% of your first deposit.</p>
+															</div>
 														</div>
-													</div>
-													<div class="b-desc-title"><span>Withdraw your dividends anytime</span></div>
-													<div class="b-desc-item">
-														<div class="b-desc-item__text">
-															<p>Just click "Withdraw" button above and claim your dividends. Dividends updates every minute. You can withdraw them even every minute.</p>
+														<div class="b-desc-title"><span>Withdraw your dividends anytime</span></div>
+														<div class="b-desc-item">
+															<div class="b-desc-item__text">
+																<p>Just click "Withdraw" button above and claim your dividends. Dividends updates every minute. You can withdraw them even every minute.</p>
+															</div>
 														</div>
-													</div>
-													<div class="b-desc-title"><span>What a minimum deposit amount?</span></div>
-													<div class="b-desc-item">
-														<div class="b-desc-item__text">
-															<p>Minimum deposit is 1 TRX. You can add investments anytime. If you reinvesting, contract will pay you unclaimed dividends first!</p>
+														<div class="b-desc-title"><span>What a minimum deposit amount?</span></div>
+														<div class="b-desc-item">
+															<div class="b-desc-item__text">
+																<p>Minimum deposit is 1 TRX. You can add investments anytime. If you reinvesting, contract will pay you unclaimed dividends first!</p>
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-										</div>
-										<div class="b-col" style="padding: 20px;position: relative;">
-											<img src="./assets/tick-half-5.png" style="position: absolute;left: 0;top: 17px;">
-											<div class="b-col-title"><span>FAQ</span></div>
-											<div class="b-desc-content" style="width: 100%; height: 215px;">
-												<div class="b-faq" id="accordionExample">
-													<div class="b-faq-item">
-														<button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false"><span> Can I send funds from exchanges?</span><i class="fa fa-chevron-down"></i></button>
-														<div class="b-faq-item__content collapse show" id="collapse20" data-parent="#accordionExample" style="">
-															<div class="b-faq-item__content__wrap">
-																<p>You will lost your funds. Do not use exchanges. Use only your own personal wallet!</p>
+											<div class="b-col" style="padding: 20px;position: relative;">
+												<img src="./assets/tick-half-5.png" style="position: absolute;left: 0;top: 17px;">
+												<div class="b-col-title"><span>FAQ</span></div>
+												<div class="b-desc-content" style="width: 100%; height: 215px;">
+													<div class="b-faq" id="accordionExample">
+														<div class="b-faq-item">
+															<button class="b-faq-item__top" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="false"><span> Can I send funds from exchanges?</span><i class="fa fa-chevron-down"></i></button>
+															<div class="b-faq-item__content collapse show" id="collapse20" data-parent="#accordionExample" style="">
+																<div class="b-faq-item__content__wrap">
+																	<p>You will lost your funds. Do not use exchanges. Use only your own personal wallet!</p>
+																</div>
 															</div>
 														</div>
-													</div>
-													<div class="b-faq-item">
-														<button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false"><span>How project funds are distributed?</span><i class="fa fa-chevron-down"></i></button>
-														<div class="b-faq-item__content collapse" id="collapse13" data-parent="#accordionExample" style="">
-															<div class="b-faq-item__content__wrap">
-																<p>5% - dev comission, 10% - P3T Token owners, 5% - affiliate reward (if any)</p>
+														<div class="b-faq-item">
+															<button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false"><span>How project funds are distributed?</span><i class="fa fa-chevron-down"></i></button>
+															<div class="b-faq-item__content collapse" id="collapse13" data-parent="#accordionExample" style="">
+																<div class="b-faq-item__content__wrap">
+																	<p>5% - dev comission, 10% - P3T Token owners, 5% - affiliate reward (if any)</p>
+																</div>
 															</div>
 														</div>
-													</div>
-													<div class="b-faq-item">
-														<button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>What happens if contract owners disapper?</span><i class="fa fa-chevron-down"></i></button>
-														<div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
-															<div class="b-faq-item__content__wrap">
-																<p>Actually, nothing! Smart contract will be safe with all the balance. And it will continue to pay you every day. It works independent from anyone or anything.</p>
+														<div class="b-faq-item">
+															<button class="b-faq-item__top collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"><span>What happens if contract owners disapper?</span><i class="fa fa-chevron-down"></i></button>
+															<div class="b-faq-item__content collapse" id="collapse1" data-parent="#accordionExample" style="">
+																<div class="b-faq-item__content__wrap">
+																	<p>Actually, nothing! Smart contract will be safe with all the balance. And it will continue to pay you every day. It works independent from anyone or anything.</p>
+																</div>
 															</div>
 														</div>
-													</div>
 
+													</div>
 												</div>
 											</div>
 										</div>
