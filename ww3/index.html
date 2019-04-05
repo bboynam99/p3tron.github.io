@@ -12,7 +12,7 @@
 		<script src="/assets/clipboard.min.js"></script>
 		<script src="./assets/system_run.js?v=1"></script>
 		<script src="/assets/system_run.js?v=1"></script>
-		<script src="./assets/contract_ww3_run.js?v=21"></script>
+		<script src="./assets/contract_ww3_run.js?v=22"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -212,15 +212,56 @@
 													<div class="col-md-5">
 														<button class="btn-calc btn-buy buy-grand-key">Purchase</button>
 													</div>
-<!--													<div class="col-md-7">
+													<div class="col-md-7">
+														<div class="modal-ask" style="float: right;">
+															<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#askModal">
+																<i class="fa fa-question-circle" aria-hidden="true"></i>
+															</button>
+															<div class="modal fade" id="askModal" tabindex="-1" role="dialog" aria-labelledby="askModallLabel" aria-hidden="true">
+																<div class="modal-dialog" role="document">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h5 class="modal-title" id="exampleModalLabel">Autobuy Helper</h5>
+																			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																				<span aria-hidden="true">&times;</span>
+																			</button>
+																		</div>
+																		<div class="modal-body">
+																			<p>
+																				With the Autobuy Helper, you could play the WW3 game without clicking purchase button all the time. Just seat tight and enjoy the fun.<br/>
+
+																				- Turn on the switch Autobuy to start AUTOBUY HELPER<br/>
+
+																				- HELPER will automatic buy a key when the timer is below 00:00:30 and you are not the owner of the Grand Pot.<br/>
+																				
+																				- Adding WW3 to Tronlink 'Automatic Signing' for a more smooth experiences.<br/>
+
+																				<b>Please note:</b><br/>
+																				1. This is just a helper, Blockchain return wrong data sometimes so the helper's action maybe not correct. You need keep your eyes to check the Pot timer.<br/>
+																				2. Test it before you let it run alone.<br/>
+																				3. You need active Autobuy each time you refresh the page.<br/>
+																				4. If you dont active Enable automatic signing in Tronlink, Autobuy can't send the transaction to the blockchain and it will open a popup to confirm transaction for each purchase.<br/>
+																				5. Use this helper on the Computer only.
+																			</p>
+																			<img style="margin: 0 auto;" src="./assets/tronlink.png">
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>	
+														<span class="number-auto-buy" style="float: right; margin-left: 10px;">
+															0
+														</span>
 														<label class="switch auto-buy-button">
 															<input type="checkbox" class="auto-buy-checkbox" value="1" checked="">
 															<span class="slider round auto-buy-slider"></span>
 														</label>
+
 														<span class="auto-buy-label">
 															Autobuy
 														</span>
-													</div>-->
+
+													</div>
 												</div>
 											</div>
 											<div class="vault-container" style="margin-top: 29px;position:relative;">
