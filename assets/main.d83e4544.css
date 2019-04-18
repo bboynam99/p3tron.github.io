@@ -638,7 +638,11 @@ span.tronconquest-jackpotowner {
 	}
 	.carousel-item .infor img {
 	    width: 100px;
-    	margin-bottom: 5px;
+    	margin-bottom: 13px;
+    	height: 15px;
+	}
+	.carousel-item img {
+	    height: 135px;
 	}
 	.infor h3.title {
 		font-size: 15px;
