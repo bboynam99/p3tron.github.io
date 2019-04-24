@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-react-helmet="lang">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<meta name="description" content="A tool to convert between the different tron units.">
+		<meta name="keywords" content="tron, trx, converter, sun, usd, free, tool, online">
+		<link rel="stylesheet" href="./assets/amaran.min.css">
+		<title>P3T - Transfer TRX</title>
+		<link href="./assets/main.d83e4544.css" rel="stylesheet">		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="./assets/jquery.min.js"></script>
+		<script src="./assets/bootstrap.min.js"></script>
+		<script src="/assets/clipboard.min.js"></script>
+		<script src="/assets/system_run.js?2"></script>
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Google Tag Manager -->
+		<script>(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({'gtm.start':
+							new Date().getTime(), event: 'gtm.js'});
+				var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-P2BWTJH');</script>
+		<!-- End Google Tag Manager -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132340101-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-132340101-1');
+
+
+		</script>
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2BWTJH"
+						  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<div class="b-container" id="root">
+			<div>
+				<div>
+					<div>
+						<div>
+							<header class="b-header">
+								<div class="b-header-top">
+									<div class="wrapper-content">
+										<div class="b-header-top__wrapper">
+											<div>
+												<a href="/" class="b-logo" style="display: inline-block; vertical-align: middle; margin-right: 15px;color: #c31928;font-size: 40px">
+													<img src="/assets/p3t_logo.png">
+												</a>
+												<a class="btn-link-a" href="/" style="display: inline-block; color: white">Home</a>
+												<a class="btn-link-a" target="" href="/dailyroi" style="display: inline-block; color: white">Daily ROI</a>
+												<a class="btn-link-a" target="" href="/ww3" style="display: inline-block; color: white">Whale War 3</a>
+												<a class="btn-link-a" target="" href="/twd" style="display: inline-block; color: white">Tron World Domination</a>
+												<a class="btn-link-a" target="_blank" href="https://github.com/p3tron/p3tron.github.io/blob/master/api-document" style="display: inline-block; color: white">P3T Play</a>
+												<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+													Contracts
+												</a>
+												<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+													<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TEEEQGmbZoeHA24EVG91b6u9zsbWUfefPF">P3T</a>
+													<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TKbDT4VAwaMENxQUfTih1TZELGndmzB2vz">Daily ROI</a>
+													<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TWnyj5NZc3L96qw8szRZ1fEAv1cnvXunCs">Tron World Domination</a>
+													<a class="dropdown-item" target="_blank" href="https://tronscan.org/#/contract/TASLE5LR7LPncJDAjTV9XEZGNvQCPp4oCL">Whale War 3</a>
+												</div>
+												<div class="btn-group" style="vertical-align: initial">
+													<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown">
+														Tools
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+														<a class="dropdown-item" target="_blank" href="/tools/tronconverter">Tron Unit Converter</a>
+														<a class="dropdown-item" target="_blank" href="/tools/transfertrx" >Transfer TRX</a>
+													</div>
+
+												</div>
+												<div class="btn-group" style="vertical-align: initial">
+													<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="telegram-menu" role="button" data-toggle="dropdown">
+														Telegram
+													</a>
+													<div class="dropdown-menu" aria-labelledby="telegram-menu">
+														<a class="dropdown-item" target="_blank" href="https://t.me/p3t_en">EN</a>
+														<a class="dropdown-item" target="_blank" href="https://t.me/p3t_ru">RU</a>
+													</div>
+												</div>
+												<a class="btn-link-a" target="_blank" href="https://discord.gg/tx6k4tX" style="display: inline-block; color: white">Discord</a>
+												<div class="btn-group" style="vertical-align: initial">
+													<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="lang-menu" role="button" data-toggle="dropdown">
+														<img src="./assets/en-language.png" style="height: 16px;width: 32px;float: left;margin-right: 10px"> English
+													</a>
+													<div class="dropdown-menu" aria-labelledby="lang-menu">
+														<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/zh"><img src="./assets/cn-language.png" style="height: 16px;width: 32px;float: left;margin-right: 10px"> Chinese (Simplified)</a>
+														<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/cn"><img src="./assets/cn-language.png" style="height: 16px;width: 32px;float: left;margin-right: 10px"> Chinese (Traditional)</a>
+														<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/"><img src="./assets/en-language.png" style="float: left;margin-right: 10px"> English</a>
+														<a class="dropdown-item" target="_blank" style="padding: 10px;padding-right: 50px;display: flex;align-items: center;" href="/ru"><img src="./assets/ru-language.png"  style="height: 16px;width: 32px;float: left;margin-right: 10px"> Russian</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</header>
+							<div class="b-content">
+								<h2 class="text-center" style="color: white;">Hide your sender with a Smart Contract</h2>
+								<p class="text-center" style="color: white;">Check the Transfer Smart Contract source code <a target="_blank" href="https://tronsmartcontract.space/#/interact/TGMyt1znrmLToYJjnJRUAfNEdF4fftKiSr">here</a></p>
+								<p>&nbsp;</p>
+								<div class="wrapper-content">
+
+
+									<div class="col-md-6" style="margin-left: 25%">
+										<div class="alert alert-success alert-transfer" style="display: none">
+											<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+											<strong>Transfer is successful</strong> 
+										</div>
+										<div class="alert alert-danger alert-transfer-reject" style="display: none">
+											<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+											<strong>Transfer is rejected</strong>
+										</div>
+										<div class="b-content-row">
+											<div class="b-calc-item ">
+												<img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
+												<div class="b-block-title"><span>Transfer TRX</span></div>                             
+												<div class="form-group">
+													<label for="">To Address</label>
+													<input type="text" class="form-control" id="addressPersonReceiver" placeholder="">
+												</div>
+												<div class="form-group">
+													<label for="">TRX</label>
+													<input type="number"  class="form-control" id="trx" placeholder="TRX">
+												</div>
+												<div class="form-group">
+													<button type="button" data-target='#modal-id' data-toggle="modal" class="btn btn-default btn-block btn-send-trx">Transfer Now</button>
+												</div>                        
+											</div>                 
+										</div>
+									</div>
+									<div class="modal fade" id="modal-id" style="border-radius: 10px;">
+										<div class="modal-dialog">
+											<div class="modal-content" style="background:#DDDDDD;">
+												<div class="modal-header">
+													<h4 class="modal-title pull-left" style="color: black;position: static;font-weight: bold">Confirm Transfer</h4>
+												</div>
+												<div class="modal-body">
+													<p>You are about to transfer</p>
+													<p><span style="font-weight: bold;font-size: 16px"  id="eth_transfer"></span>  TRX  <span style="color: gray">to</span> <span style="font-weight: bold;font-size: 16px" id="address_people_receiver"></span></p>
+												</div>
+												<div class="modal-footer" style="border-top:none;background: #EEEEEE">
+													<div class="col-sm-6" style="padding: 20px">
+														<button type="button" class="btn" style="background: #555555;border-radius: 21px;width: 80%;color: white" data-dismiss="modal">CANCEL</button>
+													</div>
+													<div class="col-sm-6" style="padding: 20px">
+														<button type="button" class="btn btn-confirm-transfer" style="float: right;background: #FF9933;border-radius: 21px;width: 80%;color: white" >CONFIRM</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<footer class="b-footer">
+								<div class="wrapper-content">
+									<div class="b-footer-content">
+										<div class="b-footer-left">
+											<a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
+											<div class="b-social">
+												<ul>
+													<li style="color:#fff">© 2019 12HourTeam. All Rights Reserved. </li>
+												</ul>
+											</div>
+										</div>
+										<div class="b-footer-right">
+											<!-- <a href="https://t.me/p3t_en" style="color: #fff;text-decoration: none;margin-right: 10px;">P3T Network</a> -->
+											<a target="_blank" href="https://github.com/p3tron/p3tron.github.io" style="display: inline-block; color: white">Github</a>
+										</div>   
+									</div>
+								</div>
+							</footer>
+							<div class="modal fade" tabindex="-1" id="instructions-modal" data-backdrop="static" data-keyboard="false">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Tutorial</h5>
+											<button type="button" class="close"><span aria-hidden="true">×</span></button>
+										</div>
+										<div class="modal-body"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function getCookie(name) {
+				var dc = document.cookie;
+				var prefix = name + "=";
+				var begin = dc.indexOf("; " + prefix);
+
+				if (begin == -1) {
+					begin = dc.indexOf(prefix);
+					if (begin != 0)
+						return "";
+				} else
+				{
+					begin += 2;
+					var end = document.cookie.indexOf(";", begin);
+					if (end == -1) {
+						end = dc.length;
+					}
+				}
+
+				return decodeURI(dc.substring(begin + prefix.length, end));
+
+			}
+		</script>
+		<script>
+			var addressContract = "TGMyt1znrmLToYJjnJRUAfNEdF4fftKiSr";
+			var contractTransferTrx;
+			window.addEventListener('load', function () {
+				loadContract();
+				makeEven();
+			})
+			async function loadContract() {
+				if (typeof window.tronWeb === 'undefined') {
+					setTimeout(loadContract, 1000);
+				} else {
+					contractTransferTrx = await tronWeb.contract().at(addressContract);
+				}
+			}
+			function makeEven() {
+				// transferTrx();
+			}
+			function getAccount() {
+				if (typeof window.tronWeb === "undefined")
+					return "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb";
+				return  tronWeb.defaultAddress.base58;
+			}
+			function convertToSun(val) {
+				return tronWeb.toSun(val);
+			}
+			function hiddenAlertTransfer() {
+				$('.alert-transfer').hide();
+			}
+			function hiddenAlertTransferReject() {
+				$('.alert-transfer-reject').hide();
+			}
+
+			$('.btn-confirm-transfer').click(function (event) {
+				var sun = convertToSun($('#eth_transfer').html());
+				var addressPersonReceiver = $('#addressPersonReceiver').val();
+				var action = contractTransferTrx.actionTranfer(addressPersonReceiver).send({callValue: sun, feeLimit: 10000000});
+				action.then(sucess => {
+					$('.alert-transfer').show();
+					$('#modal-id').modal('hide');
+					setTimeout(hiddenAlertTransfer, 5000);
+				})
+						.catch(err => {
+							console.log(err);
+						});
+			})
+
+			$('.btn-send-trx').click(function (event) {
+				event.preventDefault();
+				var addressPersonReceiver = $('#addressPersonReceiver').val();
+
+				if (tronWeb.isAddress(addressPersonReceiver) === false) {
+					alert('Entered Address is invalid');
+					$('.btn-send-trx').attr('data-target', '');
+				} else {
+					$('.btn-send-trx').attr('data-target', '#modal-id');
+					var ethShowOnModal = $('#trx').val();
+					if (ethShowOnModal == null || ethShowOnModal == '') {
+						ethShowOnModal = 0;
+					}
+					$('#eth_transfer').text(ethShowOnModal);
+					$('#address_people_receiver').text(addressPersonReceiver);
+
+				}
+			})
+		</script>
+	</body>
+</html>
