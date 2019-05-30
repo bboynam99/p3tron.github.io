@@ -3,16 +3,14 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-		<meta name="description" content="A tool to transfer your trx.">
-		<meta name="keywords" content="tron, trx, converter, sun, usd, free, tool, online">
 		<link rel="stylesheet" href="./assets/amaran.min.css">
-		<title>P3T - Transfer TRX</title>
-		<link href="./assets/main.d83e4544.css" rel="stylesheet">		
+		<title>P3T</title>
+		<link href="../play/assets/main.d83e4544.css?3" rel="stylesheet">		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="./assets/jquery.min.js"></script>
-		<script src="./assets/bootstrap.min.js"></script>
-		<script src="/assets/clipboard.min.js"></script>
-		<script src="/assets/system_run.js?2"></script>
+		<script src="../assets/jquery.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
+		<script src="../assets/clipboard.min.js"></script>
+        <script src="../assets/contract_run.js"></script>
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -44,8 +42,6 @@
 			gtag('js', new Date());
 
 			gtag('config', 'UA-132340101-1');
-
-
 		</script>
 	</head>
 	<body>
@@ -78,6 +74,7 @@
 														<a class="dropdown-item" target="_blank" href="https://1up.games" >1UP</a>
 														<a class="dropdown-item" target="_blank" href="https://planetcrypto.app/" >Flat Earth Crypto</a>
 													</div>
+
 												</div>
 												<a class="btn-link-a" target="target" href="https://medium.com/@p3t" style="display: inline-block; color: white">Blog</a>
 												<a class="btn-link-a dropdown-toggle" style="display: inline-block; color: white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
@@ -120,65 +117,106 @@
 								</div>
 							</header>
 							<div class="b-content">
-								<h2 class="text-center" style="color: white;">Hide your sender with a Smart Contract</h2>
-								<p class="text-center" style="color: white;">Check the Transfer Smart Contract source code <a target="_blank" href="https://tronsmartcontract.space/#/interact/TGMyt1znrmLToYJjnJRUAfNEdF4fftKiSr">here</a></p>
-								<p>&nbsp;</p>
-								<div class="wrapper-content" style="display: flex;align-items: center;justify-content: center;">
-
-
-									<div class="col-md-6" >
-										<div class="alert alert-success alert-transfer" style="display: none">
-											<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-											<strong>Transfer is successful</strong> 
-										</div>
-										<div class="alert alert-danger alert-transfer-reject" style="display: none">
-											<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-											<strong>Transfer is rejected</strong>
-										</div>
-										<div class="b-content-row">
-											<div class="b-calc-item ">
-												<img src="./assets/tick-half-4.png" style="position: absolute;left: 0;top: 17px;">
-												<div class="b-block-title"><span>Transfer TRX</span></div>                             
-												<div class="form-group">
-													<label for="">To Address</label>
-													<input type="text" class="form-control" id="addressPersonReceiver" placeholder="">
-												</div>
-												<div class="form-group">
-													<label for="">TRX</label>
-													<input type="number"  class="form-control" id="trx" placeholder="TRX">
-												</div>
-												<div class="form-group">
-													<button type="button" data-target='#modal-id' data-toggle="modal" class="btn btn-default btn-block btn-send-trx">Transfer Now</button>
-												</div>                        
-											</div>                 
+								<div class="wrapper-content">
+									<div class="b-content-row">
+										<div class="text-head" style="width: 100%">
+											<h1 style="font-family: Montserrat;">P3T PLAY<br></h1>
+											<p>P3T Play is a TRON dapp programme that helps dapp developers distribute<br> their dapps to thousands of P3T community members.</p>
 										</div>
 									</div>
-									<div class="modal fade" id="modal-id" style="border-radius: 10px;">
-										<div class="modal-dialog">
-											<div class="modal-content" style="background:#DDDDDD;">
-												<div class="modal-header">
-													<h4 class="modal-title pull-left" style="color: black;position: static;font-weight: bold">Confirm Transfer</h4>
+									<div class="b-content-row block-white-play" style="margin-bottom: 40px;">
+										<div class="text-top clearfix" style="text-align: center;">
+											<div class="infor">
+												<img src="../play/assets/img-member.png">
+												<p>4,000</p>
+												<span>member</span>
+											</div>
+											<div class="infor">
+												<img src="../play/assets/img-monthly.png">
+												<p>24,000</p>
+												<span>mONTHLY iMPRESSIONS</span>
+											</div>
+											<div class="infor">
+												<img src="../play/assets/img-partners.png">
+												<p>30+</p>
+												<span>ENTERPRISE PARTNERS</span>
+											</div>
+										</div>
+										<div class="marketing-technical clearfix">
+											<div class="marketing">
+												<h1 class="title">Marketing</h1>
+												<div class="item">
+													<h4>Reach  a Global Audience</h4>
+													<p>>4,000 players in 85+ countries</p>
 												</div>
-												<div class="modal-body">
-													<p>You are about to transfer</p>
-													<p><span style="font-weight: bold;font-size: 16px"  id="eth_transfer"></span>  TRX  <span style="color: gray">to</span> <span style="font-weight: bold;font-size: 16px" id="address_people_receiver"></span></p>
+												<div class="item">
+													<h4>YouTube Promotion</h4>
+													<p>At least 2 YouTube promotion videos sponsored by P3T</p>
 												</div>
-												<div class="modal-footer" style="border-top:none;background: #EEEEEE">
-													<div class="col-sm-6" style="padding: 20px">
-														<button type="button" class="btn" style="background: #555555;border-radius: 21px;width: 80%;color: white" data-dismiss="modal">CANCEL</button>
+												<div class="item">
+													<h4>TRON Dapp Wallets</h4>
+													<p>Get listed on at leasted 3 TRON wallet partners of P3T, including those in China</p>
+												</div>
+											</div>
+											<div class="technical">
+												<h1 class="title">Technical</h1>
+												<div class="item">
+													<h4>Security Audity</h4>
+													<p>Prevent hacks, backdoors and glitches</p>
+												</div>
+												<div class="item">
+													<h4>Algorithm Optimisation</h4>
+													<p>Save users’ gas and minimise network jam’s effect</p>
+												</div>
+												<div class="item">
+													<h4>UI/UX Support</h4>
+													<p>>Redesign/touch-up by P3T UI/UX experts</p>
+												</div>
+											</div>
+											<div class="p3t-smart">
+												<h4>P3T Smart Contract Test Specialists</h4>
+												<p>P3T test specialists will conduct thorough pre-launch tests to minimise the dapp bugs,<br> optimise the dapp performance and ensure a smooth launch</p>
+											</div>
+										</div>
+										<div class="process">
+											<h1 class="title">Process</h1>
+											<div class="table">
+												<div class="divTable">
+													<div class="divTableBody">
+														<div class="divTableRow">
+															<div class="title1 ">Apply</div>
+															<div class="title2 ">Term Negotiation</div>
+															<div class="title3 ">Code Review</div>
+															<div class="title4 ">Marketing</div>
+															<div class="title5 ">Launch</div>
+														</div>
+														<div class="divTableRow">
+															<div class="divTableCell">Fill in our Google Form below</div>
+															<div class="divTableCell">Discuss revenue share with P3T token holders and launch details</div>
+															<div class="divTableCell">P3T reviews and tests the dapps for security and performance</div>
+															<div class="divTableCell">P3T arranges for marketing roadmap and materials</div>
+															<div class="divTableCell">Launch support and post-launch marketing continuation</div>
+														</div>
 													</div>
-													<div class="col-sm-6" style="padding: 20px">
-														<button type="button" class="btn btn-confirm-transfer" style="float: right;background: #FF9933;border-radius: 21px;width: 80%;color: white" >CONFIRM</button>
-													</div>
 												</div>
+											</div>			
+										</div>
+										<div class="banner-bottom clearfix">
+											<div class="text">
+												<img src="../play/assets/logo-banner-bottom.png">
+												<p>Sign up to distribute your dapps<br>
+													through P3T Play.</p>
+												<a class=button-click" style="background: #c31928" href="https://github.com/p3tron/p3tron.github.io/blob/master/api-document" target="_blank" href="">Submit Application</a>
+											</div>
+											<div class="img">
+												<img src="../play/assets/img-banner-bottom.png">
 											</div>
 										</div>
 									</div>
-
 								</div>
 							</div>
 							<footer class="b-footer">
-								<div class="wrapper-content" >
+								<div class="wrapper-content">
 									<div class="b-footer-content">
 										<div class="b-footer-left">
 											<a href="/" class="b-footer-logo"><img src="./assets/logo-footer.png" alt=""></a>
@@ -189,6 +227,9 @@
 											</div>
 										</div>
 										<div class="b-footer-right">
+											<a style="display: inline-block; color: white;font-size: 13px;opacity: 0.5;margin-right: 31px;" target="_blank" href="https://twitter.com/@p3tnetwork">
+												Twitter
+											</a>
 											<a style="display: inline-block; color: white;font-size: 13px;opacity: 0.5;margin-right: 31px;" target="_blank" href="https://t.me/p3t_en">
 												Telegram
 											</a>
@@ -198,17 +239,6 @@
 									</div>
 								</div>
 							</footer>
-							<div class="modal fade" tabindex="-1" id="instructions-modal" data-backdrop="static" data-keyboard="false">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title">Tutorial</h5>
-											<button type="button" class="close"><span aria-hidden="true">×</span></button>
-										</div>
-										<div class="modal-body"></div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -236,71 +266,6 @@
 				return decodeURI(dc.substring(begin + prefix.length, end));
 
 			}
-		</script>
-		<script>
-			var addressContract = "TGMyt1znrmLToYJjnJRUAfNEdF4fftKiSr";
-			var contractTransferTrx;
-			window.addEventListener('load', function () {
-				loadContract();
-				makeEven();
-			})
-			async function loadContract() {
-				if (typeof window.tronWeb === 'undefined') {
-					setTimeout(loadContract, 1000);
-				} else {
-					contractTransferTrx = await tronWeb.contract().at(addressContract);
-				}
-			}
-			function makeEven() {
-				// transferTrx();
-			}
-			function getAccount() {
-				if (typeof window.tronWeb === "undefined")
-					return "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb";
-				return  tronWeb.defaultAddress.base58;
-			}
-			function convertToSun(val) {
-				return tronWeb.toSun(val);
-			}
-			function hiddenAlertTransfer() {
-				$('.alert-transfer').hide();
-			}
-			function hiddenAlertTransferReject() {
-				$('.alert-transfer-reject').hide();
-			}
-
-			$('.btn-confirm-transfer').click(function (event) {
-				var sun = convertToSun($('#eth_transfer').html());
-				var addressPersonReceiver = $('#addressPersonReceiver').val();
-				var action = contractTransferTrx.actionTranfer(addressPersonReceiver).send({callValue: sun, feeLimit: 10000000});
-				action.then(sucess => {
-					$('.alert-transfer').show();
-					$('#modal-id').modal('hide');
-					setTimeout(hiddenAlertTransfer, 5000);
-				})
-						.catch(err => {
-							console.log(err);
-						});
-			})
-
-			$('.btn-send-trx').click(function (event) {
-				event.preventDefault();
-				var addressPersonReceiver = $('#addressPersonReceiver').val();
-
-				if (tronWeb.isAddress(addressPersonReceiver) === false) {
-					alert('Entered Address is invalid');
-					$('.btn-send-trx').attr('data-target', '');
-				} else {
-					$('.btn-send-trx').attr('data-target', '#modal-id');
-					var ethShowOnModal = $('#trx').val();
-					if (ethShowOnModal == null || ethShowOnModal == '') {
-						ethShowOnModal = 0;
-					}
-					$('#eth_transfer').text(ethShowOnModal);
-					$('#address_people_receiver').text(addressPersonReceiver);
-
-				}
-			})
 		</script>
 	</body>
 </html>
