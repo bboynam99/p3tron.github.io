@@ -576,9 +576,14 @@ span.tronconquest-jackpotowner {
 	margin-bottom: 66px;
 }
 .p3t-smart {
-	width: 100%;
-	float: left;
-	margin-bottom: 98px;
+    width: 48%;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 98px;
+}
+.p3t-translation {
+    float: left;
+    margin-left: 0;
 }
 .b-header {
 	z-index: 1;
@@ -971,5 +976,8 @@ span.tronconquest-jackpotowner {
 	}
 	.title5::after{
 		display: none;
+	}
+	.p3t-smart {
+		width: 100%;
 	}
 }
