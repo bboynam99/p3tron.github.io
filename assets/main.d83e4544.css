@@ -20,6 +20,14 @@ body {
 	width: 100%;
     height: 100%;
 }
+.carousel-inner .carousel-item {
+	height: 333px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.carousel-indicators {
+	bottom:31px;
+}
 .carousel-indicators li {
 	-webkit-transform: skew(20deg);
    	-moz-transform: skew(20deg);
@@ -190,6 +198,9 @@ input:focus + .slider {
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+}
+.carousel-item {
+	height: 321px;
 }
 .carousel-item .infor {
 	position: absolute;
@@ -660,5 +671,8 @@ span.tronconquest-jackpotowner {
 	}
 	.carousel-inner {
 		height: 100%!important;
+	}
+	.carousel-inner .carousel-item {
+		height: 100%;
 	}
 }
